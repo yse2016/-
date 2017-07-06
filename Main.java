@@ -1,7 +1,15 @@
 public class Main{
 	public static void main(String[] args) {
-		Alohaman am = new Alohaman();
+		InterfaceMan im = new InterfaceMan();
+		Quizman qm = new Quizman();
 
-		am.aloha();
+		im.showMsgInput();
+        int userAnswer = im.getuserAnswer();
+
+		if(qm.judde(userAnswer)){
+			im.showMsgAtari();
+		}else{
+			im.showMsgHazure();;
+		}
 	}
 }
