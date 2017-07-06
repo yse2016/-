@@ -1,4 +1,4 @@
-class InterfaceMan{
+class InterfaceTestman{
 	private String msgInput = "数を入力してください＞";
 	private String msgAtari = "あたり";
 	private String msgHazure = "はずれ";

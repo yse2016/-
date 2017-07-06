@@ -1,7 +1,7 @@
 public class MainTest{
       public static void main(String[] args){
         // InterfaceManインスタンスを、新規作成する
-        InterfaceMan im = new InterfaceMan();
+        InterfaceTestman im = new InterfaceTestman();
         // Quizmanインスタンスを、新規作成する
         Quizman qm = new Quizman();
     
